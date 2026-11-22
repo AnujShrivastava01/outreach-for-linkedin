@@ -115,7 +115,7 @@ For messages written from the full profile, open **Settings**, pick a provider, 
 > [!TIP]
 > No key? Start with **Gemini** or **Groq**; both have free tiers. The model dropdown fills with every model your key can use.
 
-## ⚙️ How it works
+## 🔧 How it works
 
 ```mermaid
 flowchart LR
@@ -134,7 +134,7 @@ flowchart LR
 3. **Write:** the message is written by local templates or by your chosen AI, using only real profile facts and a greeting that matches your tone.
 4. **Refine:** quick edits or your own instruction rewrite the draft. Undo keeps the earlier versions.
 
-## 🗂️ Project structure
+## 📁 Project structure
 
 ```
 outreach-for-linkedin/
@@ -150,7 +150,7 @@ outreach-for-linkedin/
 └── docs/screenshots/     # README images
 ```
 
-## 🛠️ Tech stack
+## 🧰 Tech stack
 
 - **Vanilla JavaScript, HTML and CSS:** no frameworks, no bundler, nothing to install
 - **Chrome Extensions Manifest V3:** service worker, content script and `chrome.storage`
